@@ -1,0 +1,43 @@
+# Local configuration overrides (contains sensitive server settings)
+valheim-config.local.sh
+
+# Downloaded files
+*.zip
+downloads/
+
+# Generated/temporary files
+*.tmp
+*.bak
+cache/
+
+# OS Files
+.DS_Store
+Thumbs.db
+.directory
+*.swp
+*.swo
+*~
+
+# IDE & Editor Files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+*.swp
+*.swo
+
+# Node files (if using any Node tooling)
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Local configuration overrides
+.env.local
+.env.*.local
+local.conf
+
+# Temporary files
+*.tmp
+*.bak
+*.log
+.github/copilot-instructions.md

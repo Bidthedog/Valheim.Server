@@ -1,0 +1,123 @@
+{
+  "mods": [
+    {
+      "namespace": "Azumatt",
+      "name": "AAA_Crafting",
+      "version": "2.1.6",
+      "deprecated": false,
+      "versionHistory": []
+    },
+    {
+      "namespace": "Tekla",
+      "name": "AutoRepair",
+      "version": "5.4.1602",
+      "deprecated": false,
+      "versionHistory": []
+    },
+    {
+      "namespace": "Smoothbrain",
+      "name": "Blacksmithing",
+      "version": "1.3.3",
+      "deprecated": false,
+      "versionHistory": []
+    },
+    {
+      "namespace": "GoldenJude",
+      "name": "Blacksmiths_tools",
+      "version": "2.0.3",
+      "deprecated": false,
+      "versionHistory": []
+    },
+    {
+      "namespace": "SpaceDrive",
+      "name": "BlastFurnaceAllOres",
+      "version": "1.0.1",
+      "deprecated": false,
+      "versionHistory": []
+    },
+    {
+      "namespace": "ValheimModding",
+      "name": "Jotunn",
+      "version": "2.27.1",
+      "deprecated": false,
+      "versionHistory": []
+    },
+    {
+      "namespace": "OdinPlus",
+      "name": "OdinHorse",
+      "version": "1.5.7",
+      "deprecated": false,
+      "versionHistory": []
+    },
+    {
+      "namespace": "OdinPlus",
+      "name": "OdinsFoodBarrels",
+      "version": "1.2.2",
+      "deprecated": false,
+      "versionHistory": []
+    },
+    {
+      "namespace": "Smoothbrain",
+      "name": "PackHorse",
+      "version": "1.0.4",
+      "deprecated": false,
+      "versionHistory": []
+    },
+    {
+      "namespace": "Smoothbrain",
+      "name": "PassivePowers",
+      "version": "1.1.5",
+      "deprecated": false,
+      "versionHistory": []
+    },
+    {
+      "namespace": "Advize",
+      "name": "PlantEverything",
+      "version": "1.20.0",
+      "deprecated": false,
+      "versionHistory": []
+    },
+    {
+      "namespace": "Smoothbrain",
+      "name": "Sailing",
+      "version": "1.1.8",
+      "deprecated": false,
+      "versionHistory": []
+    },
+    {
+      "namespace": "RustyMods",
+      "name": "Seasonality",
+      "version": "3.7.8",
+      "deprecated": false,
+      "versionHistory": []
+    },
+    {
+      "namespace": "Marlthon",
+      "name": "SeaAnimals",
+      "version": "0.3.3",
+      "deprecated": false,
+      "versionHistory": []
+    },
+    {
+      "namespace": "JereKuusela",
+      "name": "Server_devcommands",
+      "version": "1.102.0",
+      "deprecated": false,
+      "versionHistory": []
+    },
+    {
+      "namespace": "ValheimModding",
+      "name": "ValheimDisplayBepInExInfo",
+      "version": "2.0.1",
+      "deprecated": false,
+      "versionHistory": []
+    },
+    {
+      "namespace": "ValheimModding",
+      "name": "YamlDotNet",
+      "version": "16.3.1",
+      "deprecated": false,
+      "versionHistory": []
+    }
+  ]
+}
