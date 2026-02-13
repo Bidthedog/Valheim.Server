@@ -48,6 +48,34 @@ Automated setup and management for a Valheim dedicated server on **Debian Linux*
    val_log       # View live logs
    ```
 
+### Optional: Scheduled Midnight Restart
+
+To automatically restart the server at midnight every night (useful for clearing memory leaks and applying updates):
+
+```bash
+~/setup-midnight-restart.sh
+```
+
+This creates systemctl timer units that trigger a restart at 00:00:00 UTC each day. The timer is persistent and will catch up if the server is rebooted.
+
+**Manage the midnight restart timer:**
+```bash
+# Check timer status
+systemctl status valheim-midnight-restart.timer
+
+# View when the next restart will occur
+systemctl list-timers valheim-midnight-restart.timer
+
+# View restart logs
+journalctl -u valheim-midnight-restart.service -f
+
+# Disable the timer
+systemctl disable --now valheim-midnight-restart.timer
+
+# Re-enable the timer
+systemctl enable --now valheim-midnight-restart.timer
+```
+
 ## Default Directory and File Locations
 
 | Item | Location |
